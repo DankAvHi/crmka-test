@@ -1,2 +1,18 @@
 .DealsList {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 24px;
+    align-items: baseline;
+}
+
+@media screen and (max-width: 1280px) {
+    .DealsList {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .DealsList {
+        grid-template-columns: auto;
+    }
 }

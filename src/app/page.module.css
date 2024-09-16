@@ -1,2 +1,21 @@
-.App {
+.Home {
+    height: 100svh;
+}
+
+.container {
+    margin: 0 auto;
+
+    padding: 0 12px;
+
+    padding-top: 180px;
+
+    max-width: 1280px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.heading {
+    font-size: 48px;
 }

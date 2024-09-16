@@ -1,0 +1,15 @@
+.Loading {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+
+    animation: spin 2s linear infinite;
+}
+@keyframes spin {
+    0% {
+        rotate: 0deg;
+    }
+    100% {
+        rotate: 360deg;
+    }
+}
